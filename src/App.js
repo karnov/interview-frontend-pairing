@@ -1,24 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="board-bg">
+        <div className="board-wrapper">
+          <div className="board-position board-position--row1 board-position--col1"></div>
+          <div className="board-position board-position--row2 board-position--col1"></div>
+          <div className="board-position board-position--row3 board-position--col1"></div>
+
+          <div className="board-position board-position--row1 board-position--col2"></div>
+          <div className="board-position board-position--row2 board-position--col2"></div>
+          <div className="board-position board-position--row3 board-position--col2"></div>
+
+          <div className="board-position board-position--row1 board-position--col3"></div>
+          <div className="board-position board-position--row2 board-position--col3"></div>
+          <div className="board-position board-position--row3 board-position--col3"></div>
+        </div>
+      </div>
     </div>
   );
 }

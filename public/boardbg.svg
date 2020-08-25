@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>boardbg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-1">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#DDDDDD" offset="50%"></stop>
+            <stop stop-color="#999999" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-3">
+            <stop stop-color="#888888" offset="0%"></stop>
+            <stop stop-color="#5B5B5B" offset="50%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="boardbg">
+            <g id="pieceStyles" transform="translate(32.500000, 32.500000)" fill-rule="nonzero">
+                <g id="whitePiece">
+                    <path d="M22,12 C22,17.5228475 17.5228475,22 12,22 C6.4771525,22 2,17.5228475 2,12 C2,6.4771525 6.4771525,2 12,2 C17.5228475,2 22,6.4771525 22,12 Z" id="path5000" fill="url(#radialGradient-1)"></path>
+                    <path d="M20,10 C20,15.5228475 15.5228475,20 10,20 C4.4771525,20 1.77635684e-15,15.5228475 0,10 C0,4.4771525 4.4771525,1.77635684e-15 10,1.77635684e-15 C15.5228475,-1.97215226e-31 20,4.4771525 20,10 Z" id="path5001" fill="url(#radialGradient-2)"></path>
+                </g>
+                <g id="blackPiece">
+                    <path d="M22,12 C22,17.5228475 17.5228475,22 12,22 C6.4771525,22 2,17.5228475 2,12 C2,6.4771525 6.4771525,2 12,2 C17.5228475,2 22,6.4771525 22,12 Z" id="path6000" fill="url(#radialGradient-1)"></path>
+                    <path d="M20,10 C20,15.5228475 15.5228475,20 10,20 C4.4771525,20 1.77635684e-15,15.5228475 0,10 C0,4.4771525 4.4771525,1.77635684e-15 10,1.77635684e-15 C15.5228475,-1.97215226e-31 20,4.4771525 20,10 Z" id="path6001" fill="url(#radialGradient-3)"></path>
+                </g>
+            </g>
+            <g id="boardAndNotation" transform="translate(0.500000, 0.500000)">
+                <g id="board">
+                    <rect id="boardBackground" fill="#FFF0C0" fill-rule="nonzero" x="2" y="2" width="80" height="80"></rect>
+                    <path d="M2,2 L82,2 L82,82 L2,82 L2,2 L82,82 L2,2 Z M42,2 L42,82 L42,2 Z M82,2 L2,82 L82,2 Z M2,42 L82,42 L2,42 Z" id="movementLines" stroke="#000000"></path>
+                    <g id="intersections" fill="#000000" fill-rule="nonzero">
+                        <path d="M0,2 C0,0.8954305 0.8954305,2.22044605e-16 2,0 C3.1045695,0 4,0.8954305 4,2 C4,3.1045695 3.1045695,4 2,4 C0.8954305,4 2.22044605e-16,3.1045695 0,2 Z" id="path1000"></path>
+                        <g id="use1000" transform="translate(40.000000, 0.000000)">
+                            <path d="M0,2 C0,0.8954305 0.8954305,2.22044605e-16 2,0 C3.1045695,0 4,0.8954305 4,2 C4,3.1045695 3.1045695,4 2,4 C0.8954305,4 2.22044605e-16,3.1045695 0,2 Z" id="path1000"></path>
+                        </g>
+                        <g id="use1001" transform="translate(80.000000, 0.000000)">
+                            <path d="M0,2 C0,0.8954305 0.8954305,2.22044605e-16 2,0 C3.1045695,0 4,0.8954305 4,2 C4,3.1045695 3.1045695,4 2,4 C0.8954305,4 2.22044605e-16,3.1045695 0,2 Z" id="path1000"></path>
+                        </g>
+                        <g id="use1002" transform="translate(0.000000, 40.000000)">
+                            <path d="M0,2 C0,0.8954305 0.8954305,2.22044605e-16 2,0 C3.1045695,0 4,0.8954305 4,2 C4,3.1045695 3.1045695,4 2,4 C0.8954305,4 2.22044605e-16,3.1045695 0,2 Z" id="path1000"></path>
+                        </g>
+                        <g id="use1003" transform="translate(40.000000, 40.000000)">
+                            <path d="M0,2 C0,0.8954305 0.8954305,2.22044605e-16 2,0 C3.1045695,0 4,0.8954305 4,2 C4,3.1045695 3.1045695,4 2,4 C0.8954305,4 2.22044605e-16,3.1045695 0,2 Z" id="path1000"></path>
+                        </g>
+                        <g id="use1004" transform="translate(80.000000, 40.000000)">
+                            <path d="M0,2 C0,0.8954305 0.8954305,2.22044605e-16 2,0 C3.1045695,0 4,0.8954305 4,2 C4,3.1045695 3.1045695,4 2,4 C0.8954305,4 2.22044605e-16,3.1045695 0,2 Z" id="path1000"></path>
+                        </g>
+                        <g id="use1005" transform="translate(0.000000, 80.000000)">
+                            <path d="M0,2 C0,0.8954305 0.8954305,2.22044605e-16 2,0 C3.1045695,0 4,0.8954305 4,2 C4,3.1045695 3.1045695,4 2,4 C0.8954305,4 2.22044605e-16,3.1045695 0,2 Z" id="path1000"></path>
+                        </g>
+                        <g id="use1006" transform="translate(40.000000, 80.000000)">
+                            <path d="M0,2 C0,0.8954305 0.8954305,2.22044605e-16 2,0 C3.1045695,0 4,0.8954305 4,2 C4,3.1045695 3.1045695,4 2,4 C0.8954305,4 2.22044605e-16,3.1045695 0,2 Z" id="path1000"></path>
+                        </g>
+                        <g id="use1007" transform="translate(80.000000, 80.000000)">
+                            <path d="M0,2 C0,0.8954305 0.8954305,2.22044605e-16 2,0 C3.1045695,0 4,0.8954305 4,2 C4,3.1045695 3.1045695,4 2,4 C0.8954305,4 2.22044605e-16,3.1045695 0,2 Z" id="path1000"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
