@@ -1,11 +1,18 @@
+.instructions {
+  margin: auto;
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
 .App {
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
 }
-
 
 .board-wrapper {
   background-image: url("/boardbg.svg");
@@ -22,6 +29,14 @@
   width: 20px;
   border: 1px solid black;
   border-radius: 50%;
+}
+
+.board-position-green {
+  background-color: green;
+}
+
+.board-position-blue {
+  background-color: blue;
 }
 
 .board-position:hover {
@@ -52,8 +67,3 @@
 .board-position--row3 {
   top: calc(100% - 25px);
 }
-
-
-
-
-
