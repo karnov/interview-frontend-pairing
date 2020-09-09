@@ -25,8 +25,8 @@ const Instructions = () => {
           proceeds with each player moving one of their pieces per turn.
         </li>
         <li>
-          A piece cannot be placed on an opponents piece. A piece may move to
-          any vacant point on the board, not just an adjacent one.
+          A piece cannot be placed on an opponents piece. A piece can only move 
+          to an adjacent spot.
         </li>
         <li>
           As soon as a player places a piece that gives them a row of three,
